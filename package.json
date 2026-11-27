@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "ws": "^8.23.0"
+  },
+  "description": "VLESS over WebSocket proxy on dcdeploy (France). Health endpoints are public; the VLESS UUID is the auth.",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "server.js",
+  "name": "dcdeploy-proxy",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0"
+}
